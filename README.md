@@ -1,5 +1,4 @@
-# LSW
-Extreme RAM Optimizer for Windows Server VMs (WinApps/RDP)
+# LSW is an extreme RAM Optimizer for Windows Server 2022 VMs (WinApps/RDP)
 
 # English 🇬🇧 
 
