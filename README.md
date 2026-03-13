@@ -9,7 +9,7 @@
 
 *Alternatively, open PowerShell as Administrator and paste this pro one-liner:*
 ```powershell
-irm https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd | iex
+irm https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd -OutFile LSW_Optimizer.cmd; .\LSW_Optimizer.cmd
 ```
 ## 🚀 LSW in action (Seamless Mode)
 Here’s proof that extreme optimization makes sense. Native Microsoft Word 2024 (on Windows) running directly on the Ubuntu (Linux) desktop using WinApps, with minimal resource usage:
