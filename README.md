@@ -18,11 +18,11 @@ irm https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd | i
 
 ### 🚀 如何开始 (Getting Started)
 
-    获取系统: 下载官方的 Windows Server 2022 评估版 ISO，正式成为微软的“家庭实验室开发者” 😉。
+1. **获取系统:** 下载官方的 Windows Server 2022 评估版 ISO，正式成为微软的“家庭实验室开发者” 😉。
 
-    运行优化器: 只需下载本仓库中的 LSW_Optimizer.cmd 文件，将其放在虚拟机的桌面上并双击运行即可。
+2. **运行优化器:** 只需下载本仓库中的 LSW_Optimizer.cmd 文件，将其放在虚拟机的桌面上并双击运行即可。
 
-或者，以管理员身份打开 PowerShell 并直接粘贴此一键命令：
+*或者，以管理员身份打开 PowerShell 并直接粘贴此一键命令：*
 ```PowerShell
 irm https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd | iex
 ```
