@@ -15,7 +15,8 @@ irm https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd | i
 ## 中文 🇨🇳
 
 **LSW Optimizer** 是一款开创性的配置脚本，旨在对 Windows Server 进行极限精简，将其转化为专门为 Linux 环境量身定制的超轻量级后端，从而打造出真正的“Windows 的 Linux 子系统”(Linux Subsystem for Windows)。通过无情地剥离遥测数据、后台服务、Windows Defender 以及不必要的 UI 臃肿程序，该脚本将操作系统的闲置内存占用降至惊人的 200-300 MB。最终，它提供了一个无缝且高效的 RDP/WinApps 桥梁，确保你的妻子可以在她的 Linux 桌面上流畅运行最新的 Microsoft Word，或者你的老板可以完美地展示 PowerPoint，而他们甚至都不会察觉到后台其实正在运行一个虚拟机。
-🚀 如何开始 (Getting Started)
+
+### 🚀 如何开始 (Getting Started)
 
     获取系统: 下载官方的 Windows Server 2022 评估版 ISO，正式成为微软的“家庭实验室开发者” 😉。
 
