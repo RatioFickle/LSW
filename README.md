@@ -1,3 +1,9 @@
+   __   _                  ____     __                __              ___           _      ___         __             
+  / /  (_)__  __ ____ __  / __/_ __/ /  ___ __ _____ / /____ __ _    / _/__  ____  | | /| / (_)__  ___/ /__ _    _____
+ / /__/ / _ \/ // /\ \ / _\ \/ // / _ \(_-</ // (_-</ __/ -_)  ' \  / _/ _ \/ __/  | |/ |/ / / _ \/ _  / _ \ |/|/ (_-<
+/____/_/_//_/\_,_//_\_\ /___/\_,_/_.__/___/\_, /___/\__/\__/_/_/_/ /_/ \___/_/     |__/|__/_/_//_/\_,_/\___/__,__/___/
+                                          /___/                                                                       
+
 # LSW Optimizer: Extreme RAM reducer for Windows Server 2022 VMs (WinApps/RDP)
 
 ## English 🇬🇧 
@@ -10,6 +16,7 @@
 *Alternatively, open PowerShell as Administrator and paste this pro one-liner:*
 ```powershell
 irm [https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd](https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd) | iex
+```
 
 ## 中文 🇨🇳
 
@@ -21,6 +28,7 @@ irm [https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd](h
     运行优化器: 只需下载本仓库中的 LSW_Optimizer.cmd 文件，将其放在虚拟机的桌面上并双击运行即可。
 
 或者，以管理员身份打开 PowerShell 并直接粘贴此一键命令：
-PowerShell
+```PowerShell
 
 irm [https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd](https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd) | iex
+```
