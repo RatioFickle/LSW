@@ -32,3 +32,19 @@ This project focuses exclusively on the extreme optimization of a virtual enviro
 The recommended engineering practice for test environments (Proof of Concept) is to create a so-called "Golden Snapshot" in your hypervisor (Proxmox/VirtualBox) immediately after finishing the installation and WinApps configuration. When the evaluation period ends, you simply restore the machine to this clean, initial state and continue testing. This is a standard and fully legal workflow in homelabs.
 
 If, after successful testing, you decide to move this environment into daily "production" – simply enter your legal product key in the settings and forget about snapshots!
+
+### 🧰 Recommended Tools & Guides (For Beginners)
+If you are just starting your homelab journey and want to build this setup from scratch, here are the essential tools and official guides you will need:
+
+* **Virtual Machine Managers (Hypervisors):**
+    * [Virtual Machine Manager (KVM/libvirt)](https://virt-manager.org/) - The native, lightning-fast hypervisor built right into the Linux kernel. **Highly recommended** as WinApps can automatically start/stop libvirt VMs!
+    * [GNOME Boxes](https://apps.gnome.org/Boxes/) - The simplest, out-of-the-box VM manager often available by default on distros like Zorin OS or Ubuntu.
+    * [Proxmox VE](https://www.proxmox.com/) - The industry standard for dedicated, bare-metal homelab servers.
+    * [Oracle VirtualBox](https://www.virtualbox.org/) - Very easy to use if you are coming from a Windows host background.
+
+* **Linux Integration (Seamless Mode):**
+    * [WinApps Official Repository](https://github.com/winapps-org/winapps) - Step-by-step instructions on how to integrate Windows apps directly into your Linux app menu.
+
+* **RDP Clients (Remote Desktop):**
+    * [Remmina](https://remmina.org/) - A fantastic, user-friendly GUI client. Highly recommended if you just want to easily access the full Windows desktop!
+    * [FreeRDP](https://www.freerdp.com/) - The powerful, command-line driven backend (required if you plan to use WinApps).
