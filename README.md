@@ -15,3 +15,20 @@ irm https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd -Ou
 Here’s proof that extreme optimization makes sense. Native Microsoft Word 2024 (on Windows) running directly on the Ubuntu (Linux) desktop using WinApps, with minimal resource usage:
 
 ![LSW Word na Linuksie](lsw-word-on-linux.png)
+
+### 📝 Office Installation
+1. Download the official **Office Deployment Tool (ODT)** directly from the Microsoft Download Center:
+   👉 [**Microsoft Download Center - Office Deployment Tool**](https://www.microsoft.com/download/details.aspx?id=49117)
+2. Run the downloaded file to extract `setup.exe` into an empty folder.
+3. Download the `lsw_office_config.xml` from this repository and place it in the same folder.
+4. Open the command prompt in that folder and run: `setup.exe /configure lsw_office_config.xml`
+
+### ⚖️ Licensing & Homelab Testing
+This project focuses exclusively on the extreme optimization of a virtual environment. It relies on the official evaluation versions provided by Microsoft:
+* **Windows Server 2022 Evaluation** gives you a fully legal **180 days** to test the infrastructure *(with the possibility of extending the 180-day period up to 6 times, giving you nearly 3 years of testing)*.
+* **Office Suite (Volume/LTSC)** offers a standard, free Grace Period immediately after installation.
+
+**How to test this environment long-term?**
+The recommended engineering practice for test environments (Proof of Concept) is to create a so-called "Golden Snapshot" in your hypervisor (Proxmox/VirtualBox) immediately after finishing the installation and WinApps configuration. When the evaluation period ends, you simply restore the machine to this clean, initial state and continue testing. This is a standard and fully legal workflow in homelabs.
+
+If, after successful testing, you decide to move this environment into daily "production" – simply enter your legal product key in the settings and forget about snapshots!
