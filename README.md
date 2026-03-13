@@ -1,8 +1,13 @@
-▗▖   ▗▄▄▄▖▗▖  ▗▖▗▖ ▗▖▗▖  ▗▖     ▗▄▄▖▗▖ ▗▖▗▄▄▖  ▗▄▄▖▗▖  ▗▖▗▄▄▖▗▄▄▄▖▗▄▄▄▖▗▖  ▗▖    ▗▄▄▄▖ ▗▄▖ ▗▄▄▖     ▗▖ ▗▖▗▄▄▄▖▗▖  ▗▖▗▄▄▄  ▗▄▖ ▗▖ ▗▖ ▗▄▄▖
-▐▌     █  ▐▛▚▖▐▌▐▌ ▐▌ ▝▚▞▘     ▐▌   ▐▌ ▐▌▐▌ ▐▌▐▌    ▝▚▞▘▐▌     █  ▐▌   ▐▛▚▞▜▌    ▐▌   ▐▌ ▐▌▐▌ ▐▌    ▐▌ ▐▌  █  ▐▛▚▖▐▌▐▌  █▐▌ ▐▌▐▌ ▐▌▐▌   
-▐▌     █  ▐▌ ▝▜▌▐▌ ▐▌  ▐▌       ▝▀▚▖▐▌ ▐▌▐▛▀▚▖ ▝▀▚▖  ▐▌  ▝▀▚▖  █  ▐▛▀▀▘▐▌  ▐▌    ▐▛▀▀▘▐▌ ▐▌▐▛▀▚▖    ▐▌ ▐▌  █  ▐▌ ▝▜▌▐▌  █▐▌ ▐▌▐▌ ▐▌ ▝▀▚▖
-▐▙▄▄▖▗▄█▄▖▐▌  ▐▌▝▚▄▞▘▗▞▘▝▚▖    ▗▄▄▞▘▝▚▄▞▘▐▙▄▞▘▗▄▄▞▘  ▐▌ ▗▄▄▞▘  █  ▐▙▄▄▖▐▌  ▐▌    ▐▌   ▝▚▄▞▘▐▌ ▐▌    ▐▙█▟▌▗▄█▄▖▐▌  ▐▌▐▙▄▄▀▝▚▄▞▘▐▙█▟▌▗▄▄▞▘
-                                          /___/                                                                       
+  _    _                ___      _               _             
+ | |  (_)_ _ _  ___ __ / __|_  _| |__ ____  _ __| |_ ___ _ __  
+ | |__| | ' \ || \ \ / \__ \ || | '_ (_-< || (_-<  _/ -_) '  \ 
+ |____|_|_||_\_,_/_\_\ |___/\_,_|_.__/__/\_, /__/\__\___|_|_|_|
+                                         |__/                                                                                  
+   __          __      ___         _               
+  / _|___ _ _  \ \    / (_)_ _  __| |_____ __ _____
+ |  _/ _ \ '_|  \ \/\/ /| | ' \/ _` / _ \ V  V (_-<
+ |_| \___/_|     \_/\_/ |_|_||_\__,_\___/\_/\_//__/
+
 
 # LSW Optimizer: Extreme RAM reducer for Windows Server 2022 VMs (WinApps/RDP)
 
@@ -15,7 +20,7 @@
 
 *Alternatively, open PowerShell as Administrator and paste this pro one-liner:*
 ```powershell
-irm [https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd](https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd) | iex
+irm https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd | iex
 ```
 
 ## 中文 🇨🇳
@@ -29,6 +34,5 @@ irm [https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd](h
 
 或者，以管理员身份打开 PowerShell 并直接粘贴此一键命令：
 ```PowerShell
-
-irm [https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd](https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd) | iex
+irm https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd | iex
 ```
