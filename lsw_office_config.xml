@@ -1,7 +1,7 @@
 <Configuration>
   <Add OfficeClientEdition="64" Channel="PerpetualVL2024">
     <Product ID="ProPlus2024Volume">
-      <Language ID="en-en" />
+      <Language ID="en-US" />
       
       <ExcludeApp ID="Access" />
       <ExcludeApp ID="Lync" />
