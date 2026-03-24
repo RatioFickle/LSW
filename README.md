@@ -8,14 +8,6 @@
 The Ultimate Windows & Linux Bridge: If Bill Gates and Linus Torvalds can hang out together, so can Windows Server and Linux! 
 *(Image source & context: [Windows Central](https://www.windowscentral.com/microsoft/bill-gates-just-met-linus-torvalds))*
 
-
-> ⚠️ **SECURITY WARNING & DISCLAIMER**
-> This script is a hardcore Proof-of-Concept (PoC) designed **STRICTLY for isolated, local hypervisors** running MS Office via RDP/WinApps. 
-> By default, it completely disables Windows Defender, Windows Update, NLA (Network Level Authentication), and core security services. 
-> **DO NOT** expose this VM to the internet. **DO NOT** use this as a daily driver for web browsing or general Windows applications. You have been warned.
->
-> 🛡️ **Want to keep Defender?** The script is modular! If you prefer to maintain standard security, just remember to tick the box / skip the Defender removal option during the setup process. You are completely in control of what gets debloated!
-
 ### 💻 Getting Started
 1. **Get the OS:** Download the official [Windows Server 2022 Evaluation ISO](https://info.microsoft.com/ww-landing-windows-server-2022.html) and officially become a Microsoft "homelab developer" 😉.
 2. **Run the Optimizer:** Simply download the `LSW_Optimizer.cmd` file from this repository, place it on your VM's desktop, and double-click it. 
@@ -24,6 +16,13 @@ The Ultimate Windows & Linux Bridge: If Bill Gates and Linus Torvalds can hang o
 ```powershell
 irm https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd -OutFile LSW_Optimizer.cmd; .\LSW_Optimizer.cmd
 ```
+> ⚠️ **SECURITY WARNING & DISCLAIMER**
+> This script is a hardcore Proof-of-Concept (PoC) designed **STRICTLY for isolated, local hypervisors** running MS Office via RDP/WinApps. 
+> By default, it completely disables Windows Defender, Windows Update, NLA (Network Level Authentication), and core security services. 
+> **DO NOT** expose this VM to the internet. **DO NOT** use this as a daily driver for web browsing or general Windows applications. You have been warned.
+>
+> 🛡️ **Want to keep Defender?** The script is modular! If you prefer to maintain standard security, just remember to tick the box / skip the Defender removal option during the setup process. You are completely in control of what gets debloated!
+
 ## 🚀 LSW in action (Seamless Mode)
 Here’s proof that extreme optimization makes sense. Native Microsoft Word 2024 (on Windows) running directly on the Ubuntu (Linux) desktop using WinApps, with minimal resource usage:
 
