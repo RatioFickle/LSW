@@ -3,6 +3,13 @@
 
   **Lightweight Server Windows Optimizer** is a pioneering configuration matrix designed to aggressively debloat Windows Server, transforming it into an ultra-lightweight backend tailored specifically for Linux environments to create a true "Linux Subsystem for Windows". By mercilessly stripping away telemetry, background services, Windows Defender, and unnecessary UI bloat, the script reduces the operating system's idle footprint to an astonishing 200-300 MB of RAM. Ultimately, it provides a seamless and highly efficient RDP/WinApps bridge, ensuring that your wife can smoothly run the latest Microsoft Word directly on her Linux desktop, or your boss can flawlessly present a PowerPoint, all without ever realizing a virtual machine is running under the hood.
 
+> ⚠️ **SECURITY WARNING & DISCLAIMER**
+> This script is a hardcore Proof-of-Concept (PoC) designed **STRICTLY for isolated, local hypervisors** running MS Office via RDP/WinApps. 
+> By default, it completely disables Windows Defender, Windows Update, NLA (Network Level Authentication), and core security services. 
+> **DO NOT** expose this VM to the internet. **DO NOT** use this as a daily driver for web browsing or general Windows applications. You have been warned.
+>
+> 🛡️ **Want to keep Defender?** The script is modular! If you prefer to maintain standard security, just remember to tick the box / skip the Defender removal option during the setup process. You are completely in control of what gets debloated!
+
 ### 💻 Getting Started
 1. **Get the OS:** Download the official [Windows Server 2022 Evaluation ISO](https://info.microsoft.com/ww-landing-windows-server-2022.html) and officially become a Microsoft "homelab developer" 😉.
 2. **Run the Optimizer:** Simply download the `LSW_Optimizer.cmd` file from this repository, place it on your VM's desktop, and double-click it. 
@@ -26,7 +33,7 @@ Here’s proof that extreme optimization makes sense. Native Microsoft Word 2024
 3. Download the custom `lsw_office_config.xml` from this repository and place it in the exact same folder as the `setup.exe`.
 4. Open the command prompt in that folder and run the lightweight deployment:
    `setup.exe /configure lsw_office_config.xml`
-
+   
 ### ⚖️ Licensing & Homelab Testing
 This project focuses exclusively on the extreme optimization of a virtual environment. It relies on the official evaluation versions provided by Microsoft:
 * **Windows Server 2022 Evaluation** gives you a fully legal **180 days** to test the infrastructure *(with the possibility of extending the 180-day period up to 6 times, giving you nearly 3 years of testing)*.
@@ -36,6 +43,9 @@ This project focuses exclusively on the extreme optimization of a virtual enviro
 The recommended engineering practice for test environments (Proof of Concept) is to create a so-called "Golden Snapshot" in your hypervisor (Proxmox/VirtualBox) immediately after finishing the installation and WinApps configuration. When the evaluation period ends, you simply restore the machine to this clean, initial state and continue testing. This is a standard and fully legal workflow in homelabs.
 
 If, after successful testing, you decide to move this environment into daily "production" – simply enter your legal product key in the settings and forget about snapshots!
+
+### 🤝 Credits & Acknowledgements
+* **MemReduct:** This script utilizes the excellent [MemReduct by henrypp](https://github.com/henrypp/memreduct) for aggressive memory management.
 
 ### 🧰 Recommended Tools & Guides (For Beginners)
 If you are just starting your homelab journey and want to build this setup from scratch, here are the essential tools and official guides you will need:
@@ -52,3 +62,5 @@ If you are just starting your homelab journey and want to build this setup from 
 * **RDP Clients (Remote Desktop):**
     * [Remmina](https://remmina.org/) - A fantastic, user-friendly GUI client. Highly recommended if you just want to easily access the full Windows desktop!
     * [FreeRDP](https://www.freerdp.com/) - The powerful, command-line driven backend (required if you plan to use WinApps).
+ 
+
