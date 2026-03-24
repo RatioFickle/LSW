@@ -8,6 +8,7 @@
 The Ultimate Windows & Linux Bridge: If Bill Gates and Linus Torvalds can hang out together, so can Windows Server and Linux! 
 *(Image source & context: [Windows Central](https://www.windowscentral.com/microsoft/bill-gates-just-met-linus-torvalds))*
 
+
 > ⚠️ **SECURITY WARNING & DISCLAIMER**
 > This script is a hardcore Proof-of-Concept (PoC) designed **STRICTLY for isolated, local hypervisors** running MS Office via RDP/WinApps. 
 > By default, it completely disables Windows Defender, Windows Update, NLA (Network Level Authentication), and core security services. 
