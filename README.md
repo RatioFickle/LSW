@@ -1,11 +1,11 @@
 ![LSW Banner](lsw-banner.png)
 # LSW Optimizer: Extreme RAM reducer for Windows Server 2022 VMs (WinApps/RDP)
 
-  **Lightweight Server Windows Optimizer** is a pioneering configuration matrix designed to aggressively debloat Windows Server, transforming it into an ultra-lightweight backend tailored specifically for Linux environments to create a true "Linux Subsystem for Windows". By mercilessly stripping away telemetry, background services, Windows Defender, and unnecessary UI bloat, the script reduces the operating system's idle footprint to an astonishing 200-300 MB of RAM. Ultimately, it provides a seamless and highly efficient RDP/WinApps bridge, ensuring that your wife can smoothly run the latest Microsoft Word directly on her Linux desktop, or your boss can flawlessly present a PowerPoint, all without ever realizing a virtual machine is running under the hood. The Ultimate Windows & Linux Bridge:
+  **Lightweight Server Windows Optimizer** is a pioneering configuration matrix designed to aggressively debloat Windows Server, transforming it into an ultra-lightweight backend tailored specifically for Linux environments to create a true "Linux Subsystem for Windows". By mercilessly stripping away telemetry, background services, Windows Defender, and unnecessary UI bloat, the script reduces the operating system's idle footprint to an astonishing 200-300 MB of RAM. Ultimately, it provides a seamless and highly efficient RDP/WinApps bridge, ensuring that your wife can smoothly run the latest Microsoft Word directly on her Linux desktop, or your boss can flawlessly present a PowerPoint, all without ever realizing a virtual machine is running under the hood.
 <p align="center">
   <img src="https://cdn.mos.cms.futurecdn.net/obNgKQcichMUMLMzbfGScH-650-80.jpg.webp" alt="Bill Gates and Linus Torvalds">
 </p>
-If Bill Gates and Linus Torvalds can hang out together, so can Windows Server and Ubuntu! 
+The Ultimate Windows & Linux Bridge: If Bill Gates and Linus Torvalds can hang out together, so can Windows Server and Linux! 
 *(Image source & context: [Windows Central](https://www.windowscentral.com/microsoft/bill-gates-just-met-linus-torvalds))*
 
 > ⚠️ **SECURITY WARNING & DISCLAIMER**
