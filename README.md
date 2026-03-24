@@ -5,8 +5,8 @@
 <p align="center">
   <img src="https://cdn.mos.cms.futurecdn.net/obNgKQcichMUMLMzbfGScH-650-80.jpg.webp" alt="Bill Gates and Linus Torvalds">
 </p>
-The Ultimate Windows & Linux Bridge: If Bill Gates and Linus Torvalds can hang out together, so can Windows Server and Linux! 
-[Windows Central](https://www.windowscentral.com/microsoft/bill-gates-just-met-linus-torvalds)
+
+The Ultimate Windows & Linux Bridge: If Bill Gates and Linus Torvalds can hang out together, so can Windows Server and Linux! *(Image source & context: [Windows Central](https://www.windowscentral.com/microsoft/bill-gates-just-met-linus-torvalds))*
 
 ### 💻 Getting Started
 1. **Get the OS:** Download the official [Windows Server 2022 Evaluation ISO](https://info.microsoft.com/ww-landing-windows-server-2022.html) and officially become a Microsoft "homelab developer" 😉.
