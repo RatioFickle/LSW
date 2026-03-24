@@ -3,6 +3,12 @@
 
   **Lightweight Server Windows Optimizer** is a pioneering configuration matrix designed to aggressively debloat Windows Server, transforming it into an ultra-lightweight backend tailored specifically for Linux environments to create a true "Linux Subsystem for Windows". By mercilessly stripping away telemetry, background services, Windows Defender, and unnecessary UI bloat, the script reduces the operating system's idle footprint to an astonishing 200-300 MB of RAM. Ultimately, it provides a seamless and highly efficient RDP/WinApps bridge, ensuring that your wife can smoothly run the latest Microsoft Word directly on her Linux desktop, or your boss can flawlessly present a PowerPoint, all without ever realizing a virtual machine is running under the hood.
 
+### 🤝 Fun Fact: The Ultimate Windows & Linux Bridge
+![Bill Gates and Linus Torvalds](https://cdn.mos.cms.futurecdn.net/obNgKQcichMUMLMzbfGScH-650-80.jpg.webp)
+
+If Bill Gates and Linus Torvalds can hang out together, so can Windows Server and Ubuntu! 
+*(Image source & context: [Windows Central](https://www.windowscentral.com/microsoft/bill-gates-just-met-linus-torvalds))*
+
 > ⚠️ **SECURITY WARNING & DISCLAIMER**
 > This script is a hardcore Proof-of-Concept (PoC) designed **STRICTLY for isolated, local hypervisors** running MS Office via RDP/WinApps. 
 > By default, it completely disables Windows Defender, Windows Update, NLA (Network Level Authentication), and core security services. 
