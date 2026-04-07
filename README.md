@@ -25,9 +25,10 @@ The script is fully modular and interactive. You can precisely choose which comp
 
 1. **Obtain the OS:** Download the official [Windows Server 2022 Evaluation ISO](https://info.microsoft.com/ww-landing-windows-server-2022.html) and officially become a Microsoft "homelab/dev" 😉.
 2. **Run the Optimizer:** Download `LSW_Optimizer.cmd` to your VM's desktop and execute it, or run this one-liner via PowerShell (Admin):
-   ```powershell
-   irm [https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd](https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd) -OutFile LSW_Optimizer.cmd; .\LSW_Optimizer.cmd
-   ```
+
+```powershell
+irm https://raw.githubusercontent.com/RatioFickle/LSW/main/LSW_Optimizer.cmd -OutFile LSW_Optimizer.cmd; .\LSW_Optimizer.cmd
+```
 
 > ⚠️ **Security Notice & Disclaimer** > This script is a Proof-of-Concept (PoC) intended **strictly for isolated, local hypervisors** running MS Office via RDP/WinApps.
 >
