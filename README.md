@@ -4,6 +4,10 @@
 
 **Lightweight Server Windows (LSW) Optimizer** is a configuration script designed to minimize Windows Server 2022 resource usage. By stripping away telemetry, non-essential services, and UI bloat, it drops the idle RAM footprint to just 200–300 MB. 
 
+<p align="center">
+  <img src="lsw-taskmanager.webp" alt="LSW Task Manager showing extreme memory reduction">
+</p>
+
 The goal is to create a true "Linux Subsystem for Windows"—an ultra-lean, invisible backend tailored for Linux-based RDP/WinApps environments, allowing you to run native Windows apps seamlessly on your Linux desktop without feeling the weight of a virtual machine.
 
 <p align="center">
