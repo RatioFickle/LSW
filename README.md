@@ -11,7 +11,7 @@ The goal is to create a true "Linux Subsystem for Windows"—an ultra-lean, invi
 </p>
 <p align="center"><i>If Bill and Linus can get along, so can Windows Server and Linux. (Image: <a href="https://www.windowscentral.com/microsoft/bill-gates-just-met-linus-torvalds">Windows Central</a>)</i></p>
 
-# Configuration Options
+## Configuration Options
 
 The script is fully modular and interactive. You can precisely choose which components to optimize or remove based on your needs:
 
