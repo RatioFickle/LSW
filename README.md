@@ -13,7 +13,7 @@ The goal is to create a true "Linux Subsystem for Windows"—an ultra-lean, invi
 <p align="center">
   <img src="https://cdn.mos.cms.futurecdn.net/obNgKQcichMUMLMzbfGScH-650-80.jpg.webp" alt="Windows and Linux interoperability">
 </p>
-<p align="center"><i>If Bill and Linus can get along, so can Windows Server and Linux. (Image: <a href="https://www.windowscentral.com/microsoft/bill-gates-just-met-linus-torvalds">Windows Central</a>)</i></p>
+<p align="center"><i>If Bill and Linus can get along, so can Windows and Linux. (Image: <a href="https://www.windowscentral.com/microsoft/bill-gates-just-met-linus-torvalds">Windows Central</a>)</i></p>
 
 ## Configuration Options
 
