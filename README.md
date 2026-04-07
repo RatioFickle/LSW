@@ -1,6 +1,6 @@
 ![LSW Banner](lsw-banner.png)
 
-# LSW Optimizer: A "Linux Subsystem for Windows"
+# LSW Optimizer
 
 **Lightweight Server Windows (LSW) Optimizer** is a configuration script designed to minimize Windows Server 2022 resource usage. By stripping away telemetry, non-essential services, and UI bloat, it drops the idle RAM footprint to just 200–300 MB. 
 
@@ -10,6 +10,12 @@ The goal is to create a true "Linux Subsystem for Windows"—an ultra-lean, invi
   <img src="https://cdn.mos.cms.futurecdn.net/obNgKQcichMUMLMzbfGScH-650-80.jpg.webp" alt="Windows and Linux interoperability">
 </p>
 <p align="center"><i>If Bill and Linus can get along, so can Windows Server and Linux. (Image: <a href="https://www.windowscentral.com/microsoft/bill-gates-just-met-linus-torvalds">Windows Central</a>)</i></p>
+
+# Configuration Options
+
+The script is fully modular and interactive. You can precisely choose which components to optimize or remove based on your needs:
+
+![LSW Configuration Options](lsw-options.gif)
 
 ## Quick Start
 
