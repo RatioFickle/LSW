@@ -63,8 +63,10 @@ Standard Office installers choke your system with OneDrive, Teams, and heavy bac
 This project relies on official evaluation software from Microsoft:
 
   * **Windows Server 2022 Evaluation**: 180-day license, rearmable up to 6 times (giving you nearly 3 years of testing).
-  * **Office Suite (LTSC/Volume)**: Includes a standard grace period for evaluation.
-
+  * **Office Suite (LTSC/Volume)**: Includes a standard 30-day grace period. You can easily extend this up to 5 times (giving you ~6 months of evaluation) by opening an Administrator Command Prompt and running:
+ ```cmd
+cscript "%ProgramFiles%\Microsoft Office\Office16\ospp.vbs" /rearm
+ ```
 ### Long-term Testing Strategy
 
 The recommended engineering practice for homelab test environments is to create a "Golden Snapshot" in your hypervisor immediately after finishing the installation and WinApps configuration. When the evaluation expires, simply restore the machine to this clean state.
